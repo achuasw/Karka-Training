@@ -10,19 +10,18 @@ area_tri=area_of_triangle(a,b,c)
 print(area_tri)"""
 
 def area_of_square(s):
-    area=s*s
-    return area
+    area_of_sqr=s*s
+    return area_of_sqr
 print("Find area of a square")
-side1=float(input("Enter the side1:" ))
-side2=float(input("Enter the side2: "))
-area_sqr=area_of_square(side1)
+side=float(input("Enter the side:" ))
+#side2=float(input("Enter the side2: "))
+area_sqr=area_of_square(side)
 print("Area of Square:",area_sqr)
 
 def area_of_rectangle(area_sqr,b):
-    area=area_sqr*b 
-    return area
+    area_of_rctngl=area_sqr*b 
+    return area_of_rctngl
 length=area_sqr
-
 print("Area of rectangle\nlength=",length)
 breadth=float(input("Enter the breadth: "))
 print("\n")

@@ -3,9 +3,13 @@ total=0
 while True:
     number=int(input("Number: "))
     total=number+total
-    print("The total number so far is:",total)
-    if total==0:
-        print("\nTotal sum is:",total)
+    if number!=0:
+        print("The total number so far is:",total)     
+    else: 
+        print("\nThe total is:",total)
         exit()
+
+   
+       
     
      
