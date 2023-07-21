@@ -73,9 +73,9 @@ detail=my_resume["personal_details"]["gender"]
 print(detail)
 print(my_resume["personal_details"]["address"]["door_no"])
 
-   # detail2=resume["languages"]
+detail2=resume["languages"][0]
 
-   # print(detail2)
+print(detail2)
 
 
     
