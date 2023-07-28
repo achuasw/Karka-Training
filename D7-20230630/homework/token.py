@@ -9,16 +9,20 @@ if (total>=500)and(total<=1000):
 else:
     print("You have owned a golden token")"""
 
-
-item1=int(input("Enter the amount of item1="))
-item2=int(input("Enter the amount of item2="))
-item3=int(input("Enter the amount of item3="))
-item4=int(input("Enter the amount of item4="))
-total=item1+item2+item3+item4
-print("Total=",total)
+total=0
+item1=0
+while item1<4:
+    item1=item1+1
+    item=int(input(f"Enter the amount of item{item1}="))
+    #item2=int(input("Enter the amount of item2="))
+    #item3=int(input("Enter the amount of item3="))
+    #item4=int(input("Enter the amount of item4="))
+    total=item+total
+    print("Total=",total)
 if (total>=500)and(total<=1000):
     print("You have owned a silver token")
 elif(total<500):
     print("you have not purchased enough to buy a tokens")
 else:
     print("You have owned a golden token")
+     

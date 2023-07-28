@@ -5,8 +5,15 @@ print(num-1,"#",num,num+1)
 print("#",num-1,num,num+1)"""
 
 #leap year
-year=int(input("Enter the year:"))
-if year%4==0 and year!=100 or year%400==0:
-    print(year,"is a leap year")
-else:
-    print(year,"is not a leap year")
+#year=int(input("Enter the year:"))
+#if year%4==0 and year!=100 or year%400==0:
+ #   print(year,"is a leap year")
+#else:
+  # print(year,"is not a leap year")
+
+years=int(input("Enter the year:"))
+for year in range(years,years+10):
+    if year%4==0 and year!=100 or year%400==0:
+     print(year,"is a leap year")
+    else:
+     print(year,"is not a leap year")

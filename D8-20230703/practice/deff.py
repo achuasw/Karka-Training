@@ -7,13 +7,13 @@ rate_of_intrst=int(input("Enter the rate of interest:"))
 interest=calc_interest(prncpl,no_of_yrs,rate_of_intrst)
 print(interest)
 """
-"""def is_eligibility(passed_out_year):
+def is_eligibility(passed_out_year):
     year=passed_out_year>2021
     return year
-passed_out_year=int(input("Enter the year:"))
-year1=is_eligibility(passed_out_year)
+pass_out_year=int(input("Enter the year:"))
+year1=is_eligibility(pass_out_year)
 print(year1)
-
+"""
 def twice(a):
     num=a*2
     return num

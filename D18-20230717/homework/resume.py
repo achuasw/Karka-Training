@@ -10,7 +10,7 @@ my_resume={
                               },
 
                               {"qualification":"HSC",
-                               "percentage":63.7,
+                               "percentage":43.7,
                                "passed_out_year":2020
                                },
                                {"qualification":"B.sc computer sceince",
@@ -57,30 +57,24 @@ my_resume={
                                 "state":"TamilNadu",
                                 "pin_code":629002}
                                 }}
-#print(my_resume["education"])
-for resume in my_resume["experience"]:
-    #educate1=my_resume["education"]
-    educate1=resume["place"]
-    educate2=resume["company_name"]
-    educate3=resume["role"]
-    print(resume["place"])
-    print(educate1)
-    print(educate2)
-    print(educate3)
-    #detail=my_resume["personal_details"]["gender"]
-    #print(detail)
-detail=my_resume["personal_details"]["gender"]
-print(detail)
-print(my_resume["personal_details"]["address"]["door_no"])
-
-detail2=resume["languages"][0]
-
-print(detail2)
 
 
-    
+#my_name=my_resume["name"]
+#my_education=my_resume["education"]
+#print(my_education)
+# for i in my_education:
+#     percent=i["percentage"]
+#     qualify=i["qualification"]
+#     passed=i["passed_out_year"]
+#     #print(percent)
+#     if percent<50:
+#         if passed>=2020:
 
-    
+#             print(f"{percent} You are eligible")
+#     else:
+#         print(f"{percent} You are not eligible")
 
 
- 
+personal=my_resume["personal_details"]
+for j in personal["languages"]:
+    print(j)

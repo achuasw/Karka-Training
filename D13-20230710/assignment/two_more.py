@@ -14,8 +14,8 @@ def two_qn(qn1,qn2):
             print("\n")
             print(outside_alive)
     elif qn1=="outside" and qn2=="no":
-        print("\n")
-        print(outside_not_alive)
+      print("\n")
+      print(outside_not_alive)
     elif qn1=="inside" and qn2=="yes": 
             print("\n")
             print(inside_alive)

@@ -21,6 +21,14 @@ semester_details=[{"study":"B.tech",
                                        },
                                        ]}]
 for study in semester_details:
-    detail=study["semester_marks"]
-    print(detail)
-    print(study["study"])
+    education=study["study"]
+    marks=study["semester_marks"]
+    for i in marks:
+        name=i["semester_name"]
+        subject1=i["subjects"][0]
+        subject2=i["subjects"][0]
+        if name==1:
+            print(subject1)
+        elif name==2:
+            print(subject2)
+       

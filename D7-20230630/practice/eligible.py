@@ -8,9 +8,10 @@ print(name)
 name1=str(name)
 print(name1)"""
 
-is_eligible=input("is eligible:")
-is_eligible=int(is_eligible)
-if is_eligible!=2022:
+is_eligible=int(input("is eligible:"))
+#is_eligible=int(is_eligible)a
+a=is_eligible<=2022
+if a:
     print("They are eligible for pay after placement")
 else:
     print("They are not eligible for pay after placement")
@@ -23,5 +24,4 @@ print(name)
 name=type(name)
 print(name)"""
 
-#print(bool(int(input("what is your name:"))))
 

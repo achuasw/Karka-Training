@@ -11,9 +11,9 @@ for i,vegtable in enumerate(vegtables):
 names=["aswin","kumar","niwsa","ramuk"," "]
 names[4]="achu"
 for i,name in enumerate(names):
-    if i<3:
+    if i<4:
         print(name)
-        break
+    break
     
         
 

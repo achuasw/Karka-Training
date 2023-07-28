@@ -1,19 +1,20 @@
-"""import bmi
+import bmi
 category1="under weight"
 category2="normal weight"
 category3="over weight"
 category4="obese"
 
-height=float(input("Your weight in m: "))
-weight=float(input("your weight in KG: "))
-BMI=bmi.bmi_calculator(weight,height)
-if BMI<18.5:
+heigh=float(input("Your height in m: "))
+weigh=float(input("your weight in KG: "))
+a=bmi.bmi_calculator(weigh,heigh)
+print("Your BMI is:",a)
+if a<18.5:
     print(f"BMI Category: {category1}")
-elif BMI>=18.5 and BMI<=24.9:
+elif a>=18.5 and a<=24.9:
     print(f"BMI Category: {category2}")
-elif BMI>=25.0 and BMI<=29.9:
+elif a>=25.0 and a<=29.9:
     print(f"BMI Category: {category3}")
-elif BMI>=30.0:
+elif a>=30.0:
     print(f"BMI Category: {category4}")
 else:
-    print("YOU ARE IN DANGER!")"""
+    print("YOU ARE IN DANGER!")

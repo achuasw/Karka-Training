@@ -1,5 +1,5 @@
 # find sum of n natural numbers without declaring variable and using the formula (n(n+1/2))
-print(6*((6+1)/2))
+print(6*(6+1)/2)
 
 # calculate the area and perimeter of a rectangle without using variable
 print("Area of a rectangle:",(4*5))
@@ -34,7 +34,7 @@ print("Circumference of a circle:",(circumference1))
 base=6
 height=3
 area_of_a_triangle=(base*height)/2
-print("Area of a triangle:",area)
+print("Area of a triangle:",area_of_a_triangle)
 
 #
 bun=9.99
