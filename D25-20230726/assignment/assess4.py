@@ -22,7 +22,7 @@ b=int(input("Enter the number: "))
     
 for j in range(b):
     #print(j)
-    for i in (range((b*b),0,-1)):  
+    for i in range((b*b),0,-1):  
         if i%b==0:
             #print(i)
             print("")

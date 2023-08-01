@@ -1,11 +1,17 @@
-zero=[1,0,2,0,3,0,4,0,5,0]
+zero=[1,0,2,0,3,4,5,0]
 num=[]
+final=[]
 for i in zero:
     num=num+[i]
     if i==0:
-        num=num+[i+0]
-        for j in num:
-            print(j)
+        num=num+[i]
+print(num)
+for j in range(len(zero)):
+    final=final+[num[j]]
+
+print(final)
+
+
 
 # a=[3,2,2,3]
 # b=[]

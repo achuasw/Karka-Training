@@ -14,8 +14,8 @@
 #add=(num1+num2+num3)/2
 
 
-i=0
-while i<10:
-    i=i+1
-    print(i)
+# i=0
+# while i<10:
+#     i=i+1
+#     print(i)
     
