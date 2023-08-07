@@ -33,19 +33,19 @@
 #     print(fact)
 
 
-lst=[3,2,2,3]
-new_lst=[]
-old_lst=[]
-for i in lst:
-    if lst[i]!=3:
-        new_lst=new_lst+[lst[i]]
+# lst=[3,2,2,3]
+# new_lst=[]
+# old_lst=[]
+# for i in lst:
+#     if lst[i]!=3:
+#         new_lst=new_lst+[lst[i]]
    
-for j in range(len(lst)+1):
-    if j==2:
-        old_lst=new_lst
-    else:
-        old_lst=old_lst+["*"]
-print(old_lst)
+# for j in range(len(lst)+1):
+#     if j==2:
+#         old_lst=new_lst
+#     else:
+#         old_lst=old_lst+["*"]
+# print(old_lst)
 
  
 # days=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
@@ -106,13 +106,51 @@ print(old_lst)
 #     print()
       
 
-a=int(input("Enter the number: "))
-for i in range(a*a,0,-1):
-    # print(i,end=" ")
-    if i%a==0:
-        print(i)
+# a=int(input("Enter the number: "))
+# for i in range(a*a,0,-1):
+#     # print(i,end=" ")
+#     if i%a==0:
+#         print(i)
 
-    else:
-        print(i,end=" ")
+#     else:
+#         print(i,end=" ")
 
-    
+
+# def pyramid(rows):
+#     for i in range(rows):
+#         print(" "*(rows-i-1)+"* "*(i+1))
+#     for j in range(rows-1,0,-1):
+#         print(" "*(rows-j)+"* "*(j))
+
+# row=int(input("Enter the number: "))
+# pyramid(row)
+
+# row=int(input("Enter the number: "))
+# for i in range(row):
+#     for j in range(0,i+1):
+#         print(end=" ")
+#     for k in range(0,row-i):
+#         print("*",end=" ")
+#     print()
+
+# row=int(input("Enter the number: "))
+# for i in range(row):
+#     for j in range(0,row-i):
+#         print(end=" ")
+#     for k in range(0,i+1):
+#         print("*",end=" ")
+#     print()
+
+# row=int(input("Enter the number: "))
+# k=1
+# for i in range(row):
+#     for j in range(1,i+k+1):
+#         print("*",end=" ")
+#     k=k+1
+#     print()
+
+
+# names=["aswin","kumar","achu","niwsa","me","pavi"]
+# for i,name in enumerate(names):
+#     if i%2!=0:
+#         print("{}.{}".format(i,name))
