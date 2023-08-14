@@ -5,22 +5,18 @@ def calculate_electricity_bill():
                    "eb_reading":[1100,1200,1350,1650,2050]
     } 
     total_unit=[]
-    total_amount=0
+    
     reading=consumer_data["eb_reading"]
     #print(reading)
 
     for i in range(1,len(reading)):
+        total_amount=0
         #print(i)
         unit=reading[i]-reading[i-1]
-        print(unit)
+        #print(unit)
         month=i
         if unit<100:
             print("no amount to pay")
-        # elif unit==100:
-        #     rate=2*unit
-        #     total_amount=total_amount+rate
-            #data={"month":month,"units_consumed":unit,"bill_amount":rate}
-            #print(data)
         elif unit>=100 and unit<200:
             rate=2*unit
             total_amount=total_amount+rate
