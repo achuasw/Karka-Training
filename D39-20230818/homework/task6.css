@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.header{
+    background-color: yellow;
+    width: 98%;
+    height: 10%;
+    margin: 10px 0px 0px 10px;
+}
+.nav{
+    background-color: blue;
+    width: 21%;
+    height: 70%;
+    display: inline-block;
+    margin: 0px 0px 0px 7px ;
+}
+.article{
+    background-color: green;
+    width: 77%;
+    display: inline-block;
+    height: 70%;
+    margin: 0px 12px 0px 0px;
+}
+.footer{
+    background-color: brown;
+    width:98%;
+    height: 8%;
+    margin: 0px 10px 0px 10px ;
+}

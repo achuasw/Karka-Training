@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+.zero{
+    border: 1px solid black;
+    padding:10px;
+    margin:10px;
+   
+}
+
+.one{
+    border:1px solid black;
+    
+    text-align:center;
+}
+
+.two{
+    border:1px solid black
+}
+
+.three{
+   
+    width:33.1%;
+    display:inline-block
+}
+.five{
+    
+    border:1px solid black;
+    text-align:center
+}
+.six{
+    border:1px;
+    text-align:center;
+    padding-top: 100px;
+}
